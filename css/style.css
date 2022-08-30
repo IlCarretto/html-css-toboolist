@@ -29,6 +29,18 @@
     padding: 20px;
 }
 
+.white-container-2 {
+    background-color: white;
+    color: #444851;
+    width:100%;
+    max-width: 1000px;
+    height: 500px;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 20px;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f6f8f9;
@@ -57,21 +69,24 @@ button {
     background-color: #47adf1;
     border: none;
     padding: 10px;
-    border-radius: 8%;
+    border-radius: 8px;
 }
 
  #Selection{
     background-color: white;
     color: grey;
     padding: 10px;
-    border-radius: 8%;
+    border-radius: 8px;
     border: 1px grey solid;
 }
 
 /* MAIN */
-/* Main First Section */
 ul{
     list-style-type: none;
+}
+
+li{
+    margin-top: 10px;
 }
 
 .check {
@@ -82,15 +97,53 @@ ul{
     width: 1rem;
     height: 1rem;
     line-height: 1rem;
+    color: green;
+}
+
+.ballot {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    line-height: 1rem;
+    color: red;
 }
 
 .tag {
     display: inline-block;
     color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+#Editorial{
     background-color: #47adf1; 
-    width: 4rem;
-    height: 2rem;
-    line-height: 2rem;
-    border-radius: 10%;
-    text-align: center;
+}
+
+#Q1-Goals{
+    background-color: #9c72e4;
+}
+
+#Mobile{
+    background-color: #f29e33;
+}
+
+#Recruiting{
+    background-color: #64c0a9;
+}
+
+#Website{
+    background-color: #d863a1;
+}
+
+#Sales{
+    background-color: #b0c926;
+}
+
+
+section {
+    margin-top: 10px;
 }
