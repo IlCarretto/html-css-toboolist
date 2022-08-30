@@ -1,3 +1,44 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+.grey-container {
+    color: grey;
+}
+
+.white container {
+
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* HEADER */
+/* header-top */
+#header-top {
+    height: 100px;
+    line-height: 100px;
+    border-bottom: 1px solid black;
+}
+
+#logo{
+    height: 80px;
+    vertical-align: middle;
+}
+
 h1 {
-    color: red;
+    display: inline-block;
+    vertical-align: middle;
 }
