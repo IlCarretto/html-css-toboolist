@@ -12,14 +12,9 @@
     margin: auto;
 }
 
-.grey-container {
+/* .grey-container {
     color: grey;
-}
-
-.white container {
-
-}
-
+} */
 
 body {
     font-family: Arial, Helvetica, sans-serif
@@ -30,7 +25,6 @@ body {
 #header-top {
     height: 100px;
     line-height: 100px;
-    border-bottom: 1px solid black;
 }
 
 #logo{
@@ -41,4 +35,22 @@ body {
 h1 {
     display: inline-block;
     vertical-align: middle;
+}
+
+/* header-bottom */
+button {
+    color: white;
+    background-color: #47adf1;
+    border: none;
+}
+
+.tag {
+    display: inline-block;
+    color: white;
+    background-color: #47adf1; 
+    width: 4rem;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 10%;
+    text-align: center;
 }
