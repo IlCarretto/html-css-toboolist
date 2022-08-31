@@ -16,21 +16,16 @@
 
 .white-container {
     background-color: white;
-    width:100%;
-    max-width: 1000px;
-    height: 80px;
-    margin: auto;
+    width:70%;
+    margin: 3em auto 0;
     border-radius: 5px;
-    margin-top: 40px;
     padding: 20px;
 }
 
 .white-container-2 {
     background-color: white;
     color: #444851;
-    width:100%;
-    max-width: 1000px;
-    height: 500px;
+    width:70%;
     margin: auto;
     border-radius: 5px;
     margin-top: 5px;
@@ -91,6 +86,7 @@ li{
     width: 1rem;
     height: 1rem;
     line-height: 1rem;
+    text-align: center;
 }
 
 #check {
